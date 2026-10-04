@@ -3258,7 +3258,7 @@ const handlePartnerSubmit = async (
   <SectionHeader
     eyebrow="PARTNER WITH DRIVEGRID"
     title="Let's Build the Next Energy Platform."
-    text="Tell us about your company, market or partnership opportunity."
+    description="Tell us about your company, market or partnership opportunity."
   />
 
 
