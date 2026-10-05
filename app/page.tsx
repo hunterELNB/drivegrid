@@ -1067,6 +1067,131 @@ const handlePartnerSubmit = async (
             #111a23;
         }
 
+
+/* ===== LIGHT SECTIONS ===== */
+
+#model,
+#revenue,
+#customer-value,
+#computing,
+#partner-form {
+  position: relative;
+  isolation: isolate;
+  color: #071019;
+  border-top-color: #dbe3ea;
+}
+
+#model::before,
+#revenue::before,
+#customer-value::before,
+#computing::before,
+#partner-form::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  background: #eef3f7;
+}
+
+#model .sectionHeader p,
+#revenue .sectionHeader p,
+#customer-value .sectionHeader p,
+#computing .sectionHeader p,
+#partner-form .sectionHeader p {
+  color: #667585;
+}
+
+#model .card,
+#revenue .card,
+#customer-value .card,
+#computing .card {
+  background: #ffffff;
+  border-color: #dbe3ea;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+
+
+#model .card p,
+#revenue .card p,
+#customer-value .card p,
+#computing .card p {
+  color: #59697a;
+}
+
+#model .flowBox {
+  background: #ffffff;
+  border-color: #dbe3ea;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.045);
+}
+
+#model .flowBox span {
+  color: #667585;
+}
+
+#customer-value .benefit {
+  background: #ffffff;
+  border-color: #dbe3ea;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.045);
+}
+
+#customer-value .benefit span {
+  color: #5e6d7c;
+}
+
+#computing .computeVisual {
+  background: #ffffff;
+  border-color: #dbe3ea;
+}
+
+#computing .computeBox {
+  border-color: #d5dee7;
+}
+
+#computing .computeBox span {
+  color: #6b7a8a;
+}
+
+#computing .revenueRow {
+  border-color: #dbe3ea;
+  color: #5e6d7c;
+}
+
+#computing .revenueRow strong {
+  color: #071019;
+}
+
+#partner-form .partnerForm {
+  background: rgba(255, 255, 255, 0.82);
+  border-color: #dbe3ea;
+}
+
+#partner-form .formField label {
+  color: #637282;
+}
+
+#partner-form .formField input,
+#partner-form .formField textarea {
+  background: #ffffff;
+  color: #071019;
+  border-color: #cfd9e3;
+}
+
+#partner-form .formField input::placeholder,
+#partner-form .formField textarea::placeholder {
+  color: #8a98a6;
+}
+
+#partner-form .formField input:focus,
+#partner-form .formField textarea:focus {
+  background: #ffffff;
+  border-color: rgba(37, 99, 235, 0.55);
+}
+
         .sectionHeader {
           display: flex;
           align-items: end;
@@ -2709,7 +2834,7 @@ const handlePartnerSubmit = async (
             </div>
           </section>
 
-          <section>
+          <section id="revenue">
             <SectionHeader
               eyebrow="HOW DRIVEGRID MAKES MONEY"
               title="Capture economic value created by flexible energy assets."
@@ -2940,7 +3065,7 @@ const handlePartnerSubmit = async (
             </div>
           </section>
 
-          <section>
+          <section id="customer-value">
             <SectionHeader
               eyebrow="CUSTOMER VALUE"
               title="Use energy value to reduce the effective cost of EV ownership."
@@ -3008,7 +3133,7 @@ const handlePartnerSubmit = async (
             </div>
           </section>
 
-          <section>
+          <section id="flywheel">
             <SectionHeader
               eyebrow="DRIVEGRID FLYWHEEL"
               title="More EVs can create more energy value — which can create more EV demand."
@@ -3157,7 +3282,7 @@ const handlePartnerSubmit = async (
             </div>
           </section>
 
-          <section>
+          <section id="roadmap">
             <SectionHeader
               eyebrow="SCALE & ROADMAP"
               title="Build the platform from regional VPP to national energy infrastructure."
