@@ -875,7 +875,7 @@ const handlePartnerSubmit = async (
         }
 
 .nav {
-  height: 150px;
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -905,7 +905,7 @@ const handlePartnerSubmit = async (
   font-size: 18px;
   display: flex;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 8px;
 }
 
 .brand img {
@@ -2109,7 +2109,7 @@ const handlePartnerSubmit = async (
           <nav className="nav">
       
 <div className="brand">
-  <img src="/logo.png" alt="DRIVEGRID" />
+  <img src="/logo.jpg" alt="DRIVEGRID" />
 </div>
 
             <div className="navLinks">
