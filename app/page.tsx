@@ -879,13 +879,25 @@ const handlePartnerSubmit = async (
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border-bottom: 1px solid #17212c;
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.nav::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
   background: rgba(5, 8, 13, 0.96);
+  border-bottom: 1px solid #17212c;
   backdrop-filter: blur(12px);
 }
+
 
 .brand {
   font-weight: 900;
