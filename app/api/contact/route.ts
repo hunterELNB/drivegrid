@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     }
 
     const { error } = await resend.emails.send({
-      from: "DRIVEGRID <onboarding@resend.dev>",
+      from: "DRIVEGRID <partners@drive-grid.com>",
       to: ["hunter.bing.dai@gmail.com"],
       replyTo: email,
       subject: `New DRIVEGRID Partner Inquiry — ${company || name}`,
