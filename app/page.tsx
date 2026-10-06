@@ -874,14 +874,18 @@ const handlePartnerSubmit = async (
           margin: auto;
         }
 
-        .nav {
-          height: 150px;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          border-bottom: 1px solid
-            #17212c;
-        }
+.nav {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #17212c;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(5, 8, 13, 0.96);
+  backdrop-filter: blur(12px);
+}
 
 .brand {
   font-weight: 900;
