@@ -661,6 +661,8 @@ function MiniMetric({
 
 export default function Home() {
 
+const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
 const [formStatus, setFormStatus] = useState<
   "idle" | "sending" | "success" | "error"
 >("idle");
@@ -933,6 +935,85 @@ const handlePartnerSubmit = async (
         .navLinks a:hover {
           color: white;
         }
+
+
+
+.mobileMenuButton {
+  display: none;
+}
+
+@media (max-width: 650px) {
+  .nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    height: 76px;
+    background: #05080d;
+  }
+
+  .brand img {
+    width: min(230px, 68vw);
+    height: 68px;
+  }
+
+
+.mobileMenuButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: #ffffff;
+  font-size: 29px;
+  line-height: 1;
+  cursor: pointer;
+  box-shadow: none;
+  outline-offset: 3px;
+}
+
+
+
+  .navLinks {
+    display: none !important;
+    position: absolute;
+    top: 76px;
+    left: 0;
+    right: 0;
+    z-index: 2000;
+    flex-direction: column;
+    gap: 0;
+    padding: 8px 16px 16px;
+    background: #05080d;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+  }
+
+  .navLinks.mobileMenuOpen {
+    display: flex !important;
+  }
+
+
+  .navLinks a {
+    display: block;
+    padding: 14px 4px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .navLinks a:last-child {
+    border-bottom: none;
+  }
+}
+
 
 .hero {
   padding: 105px 0 90px;
@@ -2092,6 +2173,329 @@ const handlePartnerSubmit = async (
           }
         }
 
+
+
+/* ===== MOBILE OPTIMIZATION ===== */
+
+@media (max-width: 650px) {
+  /* Page width and navigation */
+  .container {
+    width: calc(100% - 32px);
+  }
+
+  .nav {
+    height: 76px;
+  }
+
+  .brand {
+    padding-top: 0;
+  }
+
+  .brand img {
+    width: min(230px, 68vw);
+    height: 68px;
+    object-position: left center;
+  }
+
+  /* Hero section */
+  .hero {
+    min-height: auto;
+    padding: 48px 0 36px;
+    gap: 28px;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: clamp(34px, 9vw, 42px);
+    line-height: 1.06;
+    letter-spacing: -0.045em;
+    overflow-wrap: break-word;
+  }
+
+  .heroText {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .actions {
+    gap: 10px;
+    margin-top: 22px;
+  }
+
+  .actions .btn {
+    text-align: center;
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .heroPanel {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  .heroCards {
+    gap: 8px;
+  }
+
+  .heroCard {
+    min-height: 100px;
+    padding: 14px;
+  }
+
+  .heroCard strong {
+    font-size: 21px;
+  }
+
+  /* Section spacing and headings */
+  section {
+    padding: 48px 0;
+  }
+
+  .sectionHeader {
+    margin-bottom: 24px;
+  }
+
+  .sectionHeader h2 {
+    font-size: clamp(27px, 7vw, 33px);
+    line-height: 1.12;
+    overflow-wrap: break-word;
+  }
+
+  .sectionHeader p {
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* Cards */
+  .card {
+    padding: 19px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  /* VPP network controls */
+  .networkBar {
+    padding: 15px;
+    gap: 13px;
+  }
+
+  .tabs {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 5px;
+  }
+
+  .tab {
+    padding: 10px 2px;
+    font-size: 10px;
+  }
+
+  .mapArea {
+    padding: 10px;
+    min-width: 0;
+  }
+
+  .mapArea svg {
+    width: 100%;
+    height: auto;
+  }
+
+  /* The side panel already identifies the selected city.
+     Hide tiny labels on the map to reduce overlap on phones. */
+  .nodeName,
+  .nodePower {
+    display: none;
+  }
+
+  .mapLegend {
+    gap: 10px;
+    font-size: 10px;
+  }
+
+  .mapHint {
+    width: 100%;
+    margin-left: 0;
+    line-height: 1.5;
+  }
+
+  .sidePanel {
+    padding: 16px;
+  }
+
+  .simBar {
+    padding: 14px;
+    align-items: stretch;
+  }
+
+  .simBar .btn {
+    width: 100%;
+    min-height: 44px;
+  }
+
+  .simStatus {
+    line-height: 1.6;
+  }
+
+  .miniGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .miniMetric {
+    padding: 11px;
+    min-width: 0;
+  }
+
+  .miniMetric strong {
+    overflow-wrap: anywhere;
+  }
+
+  /* Charts and revenue figures */
+  .chartCard {
+    padding: 16px;
+    min-width: 0;
+  }
+
+  .revenueNumber {
+    font-size: clamp(32px, 9vw, 42px);
+    overflow-wrap: anywhere;
+  }
+
+  .revenueRow {
+    gap: 10px;
+    line-height: 1.5;
+  }
+
+  .revenueRow span {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .revenueRow strong {
+    text-align: right;
+    overflow-wrap: anywhere;
+  }
+
+  /* Flywheel and computing diagram */
+  .flywheel {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px 6px;
+  }
+
+  .wheel {
+    width: min(125px, 100%);
+    height: auto;
+    aspect-ratio: 1;
+    padding: 12px;
+  }
+
+  .wheel strong {
+    font-size: 11px;
+    overflow-wrap: anywhere;
+  }
+
+  .computeVisual {
+    padding: 18px;
+    min-width: 0;
+  }
+
+  .computeFlow {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 24px;
+  }
+
+  .computeFlow > span {
+    display: none;
+  }
+
+  .computeBox {
+    min-width: 0;
+    padding: 14px 6px;
+  }
+
+  /* Roadmap and partner form */
+  .roadmap {
+    grid-template-columns: 1fr;
+  }
+
+  .partnerForm {
+    padding: 20px 16px;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .formField input,
+  .formField textarea {
+    font-size: 16px;
+  }
+
+  .partnerForm > button {
+    width: 100%;
+    min-height: 46px;
+  }
+
+  /* Footer */
+  footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.6;
+  }
+
+  .cta {
+    padding: 65px 8px;
+  }
+
+  .cta h2 {
+    font-size: clamp(32px, 8vw, 42px);
+    line-height: 1.08;
+  }
+}
+
+/* Extra-small phones */
+@media (max-width: 380px) {
+  .container {
+    width: calc(100% - 24px);
+  }
+
+  .brand img {
+    width: 210px;
+  }
+
+  .hero {
+    padding-top: 36px;
+  }
+
+  .hero h1 {
+    font-size: 33px;
+  }
+
+  .flywheel {
+    gap: 10px 4px;
+  }
+
+  .wheel {
+    padding: 9px;
+  }
+
+  .miniMetric span {
+    font-size: 8px;
+    letter-spacing: 0.04em;
+  }
+}
+
+
         @media (prefers-reduced-motion: reduce) {
           html {
             scroll-behavior: auto;
@@ -2106,34 +2510,44 @@ const handlePartnerSubmit = async (
 
       <div className="page">
         <div className="container">
-          <nav className="nav">
-      
-<div className="brand">
-  <img src="/logo.jpg" alt="DRIVEGRID" />
-</div>
 
-            <div className="navLinks">
-              <a href="#model">
-                Business Model
-              </a>
 
-              <a href="#ecosystem">
-                Ecosystem
-              </a>
+<nav className="nav">
+  <div className="brand">
+    <img src="/logo.jpg" alt="DRIVEGRID" />
+  </div>
 
-              <a href="#network">
-                VPP Network
-              </a>
+  <button
+    className="mobileMenuButton"
+    type="button"
+    aria-label="Toggle navigation menu"
+    aria-expanded={mobileMenuOpen}
+    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+  >
+    {mobileMenuOpen ? "✕" : "☰"}
+  </button>
 
-              <a href="#partners">
-                Automakers
-              </a>
 
-              <a href="#computing">
-                Computing
-              </a>
-            </div>
-          </nav>
+
+  <div className={`navLinks ${mobileMenuOpen ? "mobileMenuOpen" : ""}`}>
+    <a href="#model" onClick={() => setMobileMenuOpen(false)}>
+      Business Model
+    </a>
+    <a href="#ecosystem" onClick={() => setMobileMenuOpen(false)}>
+      Ecosystem
+    </a>
+    <a href="#network" onClick={() => setMobileMenuOpen(false)}>
+      VPP Network
+    </a>
+    <a href="#partners" onClick={() => setMobileMenuOpen(false)}>
+      Automakers
+    </a>
+    <a href="#computing" onClick={() => setMobileMenuOpen(false)}>
+      Computing
+    </a>
+  </div>
+</nav>
+
 
           <header className="hero">
             <div>
