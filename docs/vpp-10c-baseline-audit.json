@@ -1,0 +1,694 @@
+[
+  {
+    "page": "dashboard",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo"
+    ],
+    "badMoney": [
+      "$4,280"
+    ],
+    "client": 1905,
+    "h1": [
+      "Virtual Power Plant Command Center"
+    ],
+    "moneyCount": 12,
+    "nodes": 1396,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 839,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dispatch",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/dispatch"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Dispatch Command Center"
+    ],
+    "moneyCount": 3,
+    "nodes": 439,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 202,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "assets",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/assets"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Distributed Energy Asset Fleet"
+    ],
+    "moneyCount": 0,
+    "nodes": 1029,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 340,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "market",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/market"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Electricity Market Intelligence"
+    ],
+    "moneyCount": 4,
+    "nodes": 921,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 360,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "operations",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/operations"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Operations Command Center"
+    ],
+    "moneyCount": 0,
+    "nodes": 1952,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 662,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "settlement",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/settlement"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Energy Settlement & Revenue Intelligence"
+    ],
+    "moneyCount": 81,
+    "nodes": 390,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 57,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "analytics",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/analytics"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Analytics Intelligence"
+    ],
+    "moneyCount": 132,
+    "nodes": 1366,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 357,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "scenarios",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/scenarios"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "Strategy Intelligence"
+    ],
+    "moneyCount": 88,
+    "nodes": 9339,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 3290,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "owner",
+    "size": "desktop",
+    "active": [
+      "/vpp-demo/owner"
+    ],
+    "badMoney": [],
+    "client": 1905,
+    "h1": [
+      "My Energy"
+    ],
+    "moneyCount": 34,
+    "nodes": 416,
+    "scientific": false,
+    "scroll": 1905,
+    "svgNodes": 81,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dashboard",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo"
+    ],
+    "badMoney": [
+      "$4,280"
+    ],
+    "client": 375,
+    "h1": [
+      "Virtual Power Plant Command Center"
+    ],
+    "moneyCount": 12,
+    "nodes": 1396,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 839,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dispatch",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/dispatch"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Dispatch Command Center"
+    ],
+    "moneyCount": 3,
+    "nodes": 439,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 202,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "assets",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/assets"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Distributed Energy Asset Fleet"
+    ],
+    "moneyCount": 0,
+    "nodes": 1029,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 340,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "market",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/market"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Electricity Market Intelligence"
+    ],
+    "moneyCount": 4,
+    "nodes": 921,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 360,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "operations",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/operations"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Operations Command Center"
+    ],
+    "moneyCount": 0,
+    "nodes": 1952,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 662,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "settlement",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/settlement"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Energy Settlement & Revenue Intelligence"
+    ],
+    "moneyCount": 81,
+    "nodes": 390,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 57,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "analytics",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/analytics"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Analytics Intelligence"
+    ],
+    "moneyCount": 132,
+    "nodes": 1366,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 357,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "scenarios",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/scenarios"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "Strategy Intelligence"
+    ],
+    "moneyCount": 88,
+    "nodes": 9339,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 3290,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "owner",
+    "size": "mobile",
+    "active": [
+      "/vpp-demo/owner"
+    ],
+    "badMoney": [],
+    "client": 375,
+    "h1": [
+      "My Energy"
+    ],
+    "moneyCount": 34,
+    "nodes": 416,
+    "scientific": false,
+    "scroll": 375,
+    "svgNodes": 81,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dashboard",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo"
+    ],
+    "badMoney": [
+      "$4,280"
+    ],
+    "client": 1265,
+    "h1": [
+      "Virtual Power Plant Command Center"
+    ],
+    "moneyCount": 12,
+    "nodes": 1396,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 839,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dispatch",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/dispatch"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Dispatch Command Center"
+    ],
+    "moneyCount": 3,
+    "nodes": 439,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 202,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "assets",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/assets"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Distributed Energy Asset Fleet"
+    ],
+    "moneyCount": 0,
+    "nodes": 1029,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 340,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "market",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/market"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Electricity Market Intelligence"
+    ],
+    "moneyCount": 4,
+    "nodes": 921,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 360,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "operations",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/operations"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Operations Command Center"
+    ],
+    "moneyCount": 0,
+    "nodes": 1952,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 662,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "settlement",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/settlement"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Energy Settlement & Revenue Intelligence"
+    ],
+    "moneyCount": 81,
+    "nodes": 390,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 57,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "analytics",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/analytics"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Analytics Intelligence"
+    ],
+    "moneyCount": 132,
+    "nodes": 1366,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 357,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "scenarios",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/scenarios"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "Strategy Intelligence"
+    ],
+    "moneyCount": 88,
+    "nodes": 9339,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 3290,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "owner",
+    "viewport": "laptop",
+    "active": [
+      "/vpp-demo/owner"
+    ],
+    "badMoney": [],
+    "client": 1265,
+    "h1": [
+      "My Energy"
+    ],
+    "moneyCount": 34,
+    "nodes": 416,
+    "scientific": false,
+    "scroll": 1265,
+    "svgNodes": 81,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dashboard",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo"
+    ],
+    "badMoney": [
+      "$4,280"
+    ],
+    "client": 753,
+    "h1": [
+      "Virtual Power Plant Command Center"
+    ],
+    "moneyCount": 12,
+    "nodes": 1396,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 839,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "dispatch",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/dispatch"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Dispatch Command Center"
+    ],
+    "moneyCount": 3,
+    "nodes": 439,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 202,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "assets",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/assets"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Distributed Energy Asset Fleet"
+    ],
+    "moneyCount": 0,
+    "nodes": 1029,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 340,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "market",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/market"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Electricity Market Intelligence"
+    ],
+    "moneyCount": 4,
+    "nodes": 921,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 360,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "operations",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/operations"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Operations Command Center"
+    ],
+    "moneyCount": 0,
+    "nodes": 1952,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 662,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "settlement",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/settlement"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Energy Settlement & Revenue Intelligence"
+    ],
+    "moneyCount": 81,
+    "nodes": 390,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 57,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "analytics",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/analytics"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Analytics Intelligence"
+    ],
+    "moneyCount": 132,
+    "nodes": 1366,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 357,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "scenarios",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/scenarios"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "Strategy Intelligence"
+    ],
+    "moneyCount": 88,
+    "nodes": 9339,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 3290,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  },
+  {
+    "page": "owner",
+    "viewport": "tablet",
+    "active": [
+      "/vpp-demo/owner"
+    ],
+    "badMoney": [],
+    "client": 753,
+    "h1": [
+      "My Energy"
+    ],
+    "moneyCount": 34,
+    "nodes": 416,
+    "scientific": false,
+    "scroll": 753,
+    "svgNodes": 81,
+    "unlabelled": [],
+    "unlabelledImages": 0
+  }
+]

@@ -1,0 +1,5 @@
+.guide{margin:20px 0;padding:16px 20px;border:1px solid #29435f;border-radius:8px;background:#101f31;color:#b5cce5;font-size:13px;line-height:1.7}
+.guide summary{cursor:pointer;color:#dbeaff;font-weight:600;font-size:14px}
+.guide summary:focus-visible,.guide a:focus-visible{outline:2px solid #69a7ff;outline-offset:4px}
+.guide p{margin:12px 0}.guide ul{padding-left:20px;margin:12px 0;list-style:disc}.guide li{margin:7px 0}.guide a{color:#8ec5ff;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:540px){.guide{padding:14px 16px}}

@@ -2545,6 +2545,9 @@ const handlePartnerSubmit = async (
     <a href="#computing" onClick={() => setMobileMenuOpen(false)}>
       Computing
     </a>
+    <a href="/vpp-demo" onClick={() => setMobileMenuOpen(false)}>
+      Platform Demo
+    </a>
   </div>
 </nav>
 
@@ -2572,9 +2575,9 @@ const handlePartnerSubmit = async (
               <div className="actions">
                 <a
                   className="btn btnPrimary"
-                  href="#network"
+                  href="/vpp-demo"
                 >
-                  Explore VPP Demo
+                  Launch VPP Platform Demo
                 </a>
 
                 <a
@@ -3798,10 +3801,10 @@ const handlePartnerSubmit = async (
 </a>
 
               <a
-                href="#network"
+                href="/vpp-demo"
                 className="btn"
               >
-                View VPP Simulation
+                Explore Platform Demo
               </a>
             </div>
           </section>

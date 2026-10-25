@@ -1,0 +1,744 @@
+[
+  {
+    "page": "dashboard",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(138, 190, 210)",
+        "font": "7px",
+        "text": "DRIVEGRID / ENERGY INTELLIGENCE"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(237, 243, 252)",
+        "font": "21px",
+        "text": "Virtual Power Plant Command Center"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(159, 182, 205)",
+        "font": "9px",
+        "text": "Clock paused · your independent simulation"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(159, 184, 206)",
+        "font": "10px",
+        "text": "SIMULATED DATA Synthetic assets and prices. No live grid, ERCOT c"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(162, 190, 211)",
+        "font": "10px",
+        "text": "Recorded accepted AC magnitude"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Price reference chart · scroll horizontally on small screens",
+        "tabindex": "0"
+      },
+      {
+        "label": "Power reference chart · scroll horizontally on small screens",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "dispatch",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(14, 28, 44)",
+        "color": "rgb(111, 168, 247)",
+        "font": "10px",
+        "text": "DRIVEGRID / ENERGY CONTROL"
+      },
+      {
+        "background": "rgb(14, 28, 44)",
+        "color": "rgb(228, 241, 250)",
+        "font": "25px",
+        "text": "Dispatch Command Center"
+      },
+      {
+        "background": "rgb(14, 28, 44)",
+        "color": "rgb(167, 191, 209)",
+        "font": "13px",
+        "text": "Precision control. Transparent execution."
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(155, 174, 198)",
+        "font": "10px",
+        "text": "Next interval: 23 Oct 2026, 00:45 CT · AC-side power magnitude"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(165, 184, 207)",
+        "font": "11px",
+        "text": "Available for this command: 12 MW"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Dispatch asset records",
+        "tabindex": "0"
+      },
+      {
+        "label": "Dispatch history table",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "assets",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(13, 28, 45)",
+        "color": "rgb(111, 168, 247)",
+        "font": "10px",
+        "text": "DRIVEGRID / DISTRIBUTED ENERGY RESOURCES"
+      },
+      {
+        "background": "rgb(13, 28, 45)",
+        "color": "rgb(229, 241, 251)",
+        "font": "26px",
+        "text": "Distributed Energy Asset Fleet"
+      },
+      {
+        "background": "rgb(13, 28, 45)",
+        "color": "rgb(170, 193, 210)",
+        "font": "12px",
+        "text": "Inspect, understand and configure your simulated energy portfolio"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(168, 197, 213)",
+        "font": "10px",
+        "text": "Registered assets"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(168, 197, 213)",
+        "font": "10px",
+        "text": "Rated power"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Scrollable asset table",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "market",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(13, 28, 46)",
+        "color": "rgb(111, 168, 247)",
+        "font": "10px",
+        "text": "DRIVEGRID / SYNTHETIC MARKET SIGNALS"
+      },
+      {
+        "background": "rgb(13, 28, 46)",
+        "color": "rgb(225, 239, 250)",
+        "font": "27px",
+        "text": "Electricity Market Intelligence"
+      },
+      {
+        "background": "rgb(13, 28, 46)",
+        "color": "rgb(167, 193, 211)",
+        "font": "13px",
+        "text": "Price visibility. Transparent decisions."
+      },
+      {
+        "background": "rgb(13, 28, 46)",
+        "color": "rgb(154, 181, 201)",
+        "font": "10px",
+        "text": "No live market connection"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(156, 191, 206)",
+        "font": "8px",
+        "text": "CURRENT APPLIED PRICE-RULE SIGNAL"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Scrollable synthetic price chart",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": [
+      ""
+    ]
+  },
+  {
+    "page": "operations",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(14, 29, 46)",
+        "color": "rgb(111, 168, 247)",
+        "font": "10px",
+        "text": "DRIVEGRID / SIMULATED FLEET SUPERVISION"
+      },
+      {
+        "background": "rgb(14, 29, 46)",
+        "color": "rgb(224, 240, 248)",
+        "font": "27px",
+        "text": "Operations Command Center"
+      },
+      {
+        "background": "rgb(14, 29, 46)",
+        "color": "rgb(166, 191, 209)",
+        "font": "12px",
+        "text": "Fleet status. Operational context. Traceable decisions."
+      },
+      {
+        "background": "rgb(14, 29, 46)",
+        "color": "rgb(154, 182, 200)",
+        "font": "10px",
+        "text": "No live grid or SCADA connection"
+      },
+      {
+        "background": "rgb(23, 56, 77)",
+        "color": "rgb(228, 239, 255)",
+        "font": "14px",
+        "text": "Operations Reset"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Asset health table",
+        "tabindex": "0"
+      },
+      {
+        "label": "Operations alerts",
+        "tabindex": "0"
+      },
+      {
+        "label": "Operations dispatch history",
+        "tabindex": "0"
+      },
+      {
+        "label": "Operations dispatch asset records",
+        "tabindex": "0"
+      },
+      {
+        "label": "Operations event timeline",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "settlement",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(14, 30, 46)",
+        "color": "rgb(111, 168, 247)",
+        "font": "10px",
+        "text": "DRIVEGRID / ILLUSTRATIVE COMMERCIAL RESULTS"
+      },
+      {
+        "background": "rgb(14, 30, 46)",
+        "color": "rgb(226, 241, 248)",
+        "font": "26px",
+        "text": "Energy Settlement & Revenue Intelligence"
+      },
+      {
+        "background": "rgb(14, 30, 46)",
+        "color": "rgb(167, 193, 208)",
+        "font": "12px",
+        "text": "Executed energy. Transparent costs. Traceable allocation."
+      },
+      {
+        "background": "rgb(14, 30, 46)",
+        "color": "rgb(158, 185, 201)",
+        "font": "10px",
+        "text": "3 executed intervals · no real payments"
+      },
+      {
+        "background": "rgb(15, 31, 48)",
+        "color": "rgb(155, 174, 198)",
+        "font": "10px",
+        "text": "All executed manual and market records · independent of detail fi"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Scrollable revenue waterfall",
+        "tabindex": "0"
+      },
+      {
+        "label": "Settlement interval history",
+        "tabindex": "0"
+      },
+      {
+        "label": "Asset settlement table",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "analytics",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(128, 180, 199)",
+        "font": "9px",
+        "text": "DRIVEGRID / PERFORMANCE INTELLIGENCE"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(232, 244, 252)",
+        "font": "31px",
+        "text": "Analytics Intelligence"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(168, 192, 211)",
+        "font": "11px",
+        "text": "Recorded energy. Economic clarity. Operational perspective."
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(161, 183, 201)",
+        "font": "11px",
+        "text": "All recorded intervals · 3 executed intervals"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "11px",
+        "text": "Apply time filter"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Signed energy performance chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Gross energy value versus Net distributable value trend chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Grid import versus Grid export trend chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Requested versus Accepted trend chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Analytics asset category details",
+        "tabindex": "0"
+      },
+      {
+        "label": "Analytics asset performance",
+        "tabindex": "0"
+      },
+      {
+        "label": "Analytics operational events",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "scenarios",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(131, 181, 199)",
+        "font": "9px",
+        "text": "DRIVEGRID / ISOLATED STRATEGY LAB"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(225, 240, 250)",
+        "font": "32px",
+        "text": "Strategy Intelligence"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(168, 193, 212)",
+        "font": "11px",
+        "text": "Test the strategy. Trace the economics. Compare the assumptions."
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(158, 183, 203)",
+        "font": "10px",
+        "text": "15-minute intervals · 6 captured resultsSelected: Base Case"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(158, 183, 203)",
+        "font": "10px",
+        "text": "Choose a documented preset, then inspect or edit its existing par"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "Strategy price threshold diagram",
+        "tabindex": "0"
+      },
+      {
+        "label": "Economic comparison chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Energy comparison chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Scenario comparison results",
+        "tabindex": "0"
+      },
+      {
+        "label": "Base Case timeline chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "High Volatility timeline chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Low Volatility timeline chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "High Storage Capacity timeline chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Conservative Dispatch timeline chart",
+        "tabindex": "0"
+      },
+      {
+        "label": "Aggressive Dispatch timeline chart",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  },
+  {
+    "page": "owner",
+    "samples": [
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Interval 3 / 96 · time-only playback · 15 minutes per step"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Start"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Step +15 min"
+      },
+      {
+        "background": "rgb(26, 53, 84)",
+        "color": "rgb(226, 237, 255)",
+        "font": "10px",
+        "text": "Reset demo"
+      },
+      {
+        "background": "rgb(16, 29, 46)",
+        "color": "rgb(155, 174, 198)",
+        "font": "9px",
+        "text": "Playback: every 2 seconds, no dispatch. Reset clears edits and hi"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(134, 187, 203)",
+        "font": "9px",
+        "text": "DRIVEGRID / ENERGY ASSET OWNER PORTAL"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(229, 242, 251)",
+        "font": "36px",
+        "text": "My Energy"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(172, 196, 214)",
+        "font": "12px",
+        "text": "Your battery. Your participation. A clearer view of simulated val"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(156, 184, 203)",
+        "font": "10px",
+        "text": "ev-v2g-0001 · Dallas"
+      },
+      {
+        "background": "rgb(10, 18, 32)",
+        "color": "rgb(156, 184, 205)",
+        "font": "10px",
+        "text": "One shared asset and settlement source across the demo"
+      }
+    ],
+    "scrollRegions": [
+      {
+        "label": "EV earnings table",
+        "tabindex": "0"
+      }
+    ],
+    "smallTargets": []
+  }
+]

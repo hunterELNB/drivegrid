@@ -1,0 +1,109 @@
+.cards{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin:24px 0}.cards>div,.energyGrid>div{padding:17px;border:1px solid #293b53;border-radius:8px;background:#111f31;min-width:0}.cards small,.energyGrid small{display:block;color:#a9bed8;font-size:10px}.cards strong,.energyGrid strong{display:block;margin-top:10px;font-size:22px;font-weight:600;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}.help,.filterSummary{font-size:11px;color:#a6bad2;line-height:1.8;margin:15px 22px}.filterSummary{padding:13px 16px;background:#11263c;border:1px solid #294762;border-radius:6px;margin:15px 0}.error{font-size:11px;line-height:1.8;overflow-wrap:anywhere;min-height:18px}.error{color:#ffb7b7}.chartGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin:24px 0}.energyGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:18px 22px}.energyGrid strong{font-size:20px}.legend{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;margin:14px 15px 22px;font-size:10px;color:#b1c8e5}.legend span{display:flex;align-items:center;gap:7px}.legend i{width:8px;height:8px;border-radius:50%}.breakdown{padding:18px 22px}.breakdown>div{position:relative;display:flex;justify-content:space-between;gap:15px;padding:0 0 9px;margin:11px 0;font-size:10px;color:#b4c9e1}.breakdown strong{color:#e7f2ff;font-weight:500}.breakdown i{height:3px;position:absolute;bottom:0;left:0;background:#5ba5e6;border-radius:3px}.tableViewport{overflow:auto;max-height:500px}.tableViewport thead th{position:sticky;top:0;z-index:1;background:#142338}.description{white-space:normal;min-width:240px;max-width:400px;line-height:1.8}.section{margin:24px 0}.empty{border:1px dashed #36577a;border-radius:7px;padding:22px;color:#acc7e9;font-size:12px}@media(max-width:1250px){.cards{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:900px){.chartGrid{grid-template-columns:1fr}.energyGrid{grid-template-columns:repeat(2,minmax(0,1fr))}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:540px){.cards{gap:10px}.cards>div{padding:13px}.cards strong{font-size:20px}.energyGrid{gap:10px;padding:15px}.energyGrid>div{padding:12px}.energyGrid strong{font-size:17px}.help{margin:15px 16px}.tableViewport{max-height:360px}}
+
+/* Phase 10B-6: route-local presentation; accepted page/shared styles are untouched. */
+.analyticsPage{--ink:#e8f4fc;--muted:#a1b7c9;--line:#284056;color:var(--ink);min-width:0}
+.hero{display:flex;justify-content:space-between;align-items:center;gap:26px;padding:30px 0 26px;border-bottom:1px solid #2b4358;position:relative}
+.hero:after{content:'';position:absolute;bottom:-1px;left:0;width:160px;height:2px;background:linear-gradient(90deg,#53d8d2,transparent)}
+.overline{font-size:10px;letter-spacing:2px;font-weight:700;color:#80b4c7;display:block}
+.hero h1{font-size:clamp(29px,3vw,43px);line-height:1.14;letter-spacing:-1.5px;margin:14px 0 11px;font-weight:650}
+.hero>div>p:last-child{font-size:13px;color:#a8c0d3;line-height:1.7}
+.heroContext{border-left:1px solid #314f63;padding-left:25px;max-width:350px}
+.heroContext span{display:block;font-size:9px;color:#70d8ce;letter-spacing:1.7px;font-weight:700}
+.heroContext time{display:block;font-size:17px;margin:11px 0 8px;font-variant-numeric:tabular-nums}
+.heroContext small{font-size:11px;color:var(--muted);display:block;line-height:1.8}
+.toolbar>form{margin:22px 0 0;padding:19px 21px;border:1px solid var(--line);border-radius:9px;background:linear-gradient(110deg,#112334,#102032)}
+.analyticsPage label{color:#bbcedd;font-size:11px}
+.analyticsPage select,.analyticsPage input{background:#0b1b2b;border-color:#324f65;border-radius:5px;min-width:0;color:#e1edf9}
+.analyticsPage select{max-width:100%}
+.analyticsPage button{background:#17445b;border:1px solid #36738a;color:#e0f7ff;border-radius:5px;font-size:11px;padding:9px 14px}
+.analyticsPage button:hover:not(:disabled){background:#205b71}
+.analyticsPage button:disabled{opacity:.4}
+.analyticsPage :is(input,select,button,[tabindex]):focus-visible{outline:2px solid #77e6e2;outline-offset:4px}
+.filterSummary{background:transparent;border:0;padding:0 4px;color:#95aec1;margin:12px 0 0;font-size:10px}
+.error{margin:3px 0;min-height:0}
+.error:empty{display:none}
+.executive{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin:25px 0}
+.executive article{position:relative;min-width:0;border:1px solid #2b4357;border-radius:9px;padding:17px;background:linear-gradient(140deg,#142b3e,#101e2e 70%);overflow:hidden;--accent:#7aaeff}
+.executive article[data-tone=cyan]{--accent:#61d6d1}.executive article[data-tone=teal]{--accent:#7ad8b7}.executive article[data-tone=negative]{--accent:#ffb4ac}
+.cardIndex{font-size:9px;letter-spacing:2px;color:#7896ac;display:flex;justify-content:space-between}
+.cardIndex span{color:var(--accent);font-size:17px;line-height:1}
+.executive h2{font-size:11px;color:#c6d8e5;font-weight:500;line-height:1.7;margin:15px 0 12px;min-height:36px}
+.executive strong{font-size:clamp(21px,1.8vw,30px);letter-spacing:-.6px;font-weight:600;font-variant-numeric:tabular-nums;overflow-wrap:anywhere;display:block}
+.executive p{font-size:9px;color:#94adbf;margin-top:11px;line-height:1.7}
+.cardRule,.meter{height:3px;background:#243d52;margin-top:16px;border-radius:3px;overflow:hidden}.cardRule{background:linear-gradient(90deg,var(--accent),#243d52 70%)}
+.meter i{display:block;height:100%;background:var(--accent)}
+.performance{border:1px solid #335369;border-radius:12px;overflow:hidden;background:radial-gradient(ellipse at 70% 0,#16354b70,transparent 70%),linear-gradient(110deg,#102336,#0d1b2b);box-shadow:0 16px 35px #030a1430;margin:24px 0 40px}
+.sectionHeader{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:26px 28px 19px}
+.sectionHeader h2,.chapter h2{font-size:24px;letter-spacing:-.5px;font-weight:550;margin:9px 0 7px;line-height:1.3}
+.sectionHeader p,.chapter p{font-size:11px;color:#9fb7cb;line-height:1.8}
+.recordBadge{border:1px solid #34566e;background:#102a3b;min-width:125px;padding:10px 16px;border-radius:7px;display:flex;align-items:center;gap:12px}
+.recordBadge strong{font-size:25px;color:#a6dfeb;font-weight:500}.recordBadge span{font-size:8px;letter-spacing:1px;color:#9bb6c7;max-width:75px;line-height:1.8}
+.chartViewport{overflow-x:auto;min-width:0;scrollbar-color:#42617b #0c1c2a;padding:0 10px}
+.performanceSvg{display:block;width:100%;min-width:760px;max-height:440px;background-image:linear-gradient(#4a829507 1px,transparent 1px),linear-gradient(90deg,#4a829507 1px,transparent 1px);background-size:36px 36px}
+.performanceSvg text,.trendSvg text{fill:#abc2d5;font-size:12px;font-family:Arial,Helvetica,sans-serif;font-variant-numeric:tabular-nums}
+.energyBar{cursor:pointer}.energyBar:focus-visible{outline:none;stroke:#fff;stroke-width:3}
+.performanceFooter{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:6px 28px 19px;border-bottom:1px solid #294459}
+.performanceFooter>span{font-size:9px;color:#8ba5ba}.performanceFooter .legend{margin:0;justify-content:flex-start}
+.legend{display:flex;gap:19px;justify-content:center;flex-wrap:wrap;margin:13px 18px 18px;font-size:10px;color:#bcd0e0}
+.legend span{display:flex;align-items:center;gap:7px}.legend i{width:8px;height:8px;border-radius:2px;background:#95aabe}
+.analyticsPage [data-color=charge]{background:#49d6cf}.analyticsPage [data-color=discharge]{background:#7dafff}.analyticsPage [data-color=idle]{background:#9baec4}
+.inspection{display:flex;align-items:center;gap:14px;padding:20px 28px;background:#0b1b2aa6}
+.inspection label{flex:0 1 285px;font-size:10px;min-width:0}.inspection select,.trendReadout select{width:100%;display:block;padding:8px;margin-top:7px}
+.inspectionButtons{display:flex;gap:5px;padding-top:19px}
+.inspectionButtons button{padding:7px 11px;font-size:16px}
+.inspection dl{display:flex;gap:30px;flex:1;justify-content:flex-end;min-width:0}
+.inspection dt,.trendReadout dt{font-size:9px;color:#93afc4;margin-bottom:7px}
+.inspection dd{font-size:12px;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.inspection dd[data-command]{text-transform:capitalize}.inspection [data-command=charge]{color:#73e0da}.inspection [data-command=discharge]{color:#a5c9ff}
+.emptyPerformance{padding:35px 30px 50px;text-align:center;max-width:650px;margin:auto}
+.emptyPerformance>span{display:block;font-size:55px;color:#77a9c2;line-height:1}
+.emptyPerformance h3{font-size:19px;font-weight:500;margin:15px 0}.emptyPerformance p{font-size:12px;color:#a8bed0;line-height:1.9;margin:10px 0}
+.empty{background:#102334;border-style:solid;color:#b1c9da;padding:15px 20px;margin-top:22px;font-size:11px;line-height:1.8}
+.chapter{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:34px 0 20px}
+.chapter h2{font-size:22px}
+.reconciled{font-size:9px;letter-spacing:1.4px;padding:9px 13px;border:1px solid #35645b;color:#90dfc1;background:#16372f;border-radius:5px;white-space:nowrap}
+.reconciled[data-ok=false]{border-color:#a16b5b;background:#492c27;color:#ffbeb1}
+.cards{gap:11px;margin:0 0 17px}
+.cards>div{border-color:#2a4257;background:linear-gradient(120deg,#14283b,#101e2f);padding:17px 19px;border-radius:8px;border-top:2px solid #456c9a}
+.cards small{color:#adbfce;font-size:10px;line-height:1.8}.cards strong{font-size:25px;margin-top:10px;letter-spacing:-.6px;color:#e4f2fd}
+.cards>div>span{display:block;font-size:8px;letter-spacing:1.3px;color:#7796af;margin-top:11px}
+.cards>div[data-kind=cost]{border-top-color:#9c865c}.cards>div[data-kind=cost] strong{color:#e6c88f}
+.cards>div[data-sign=negative] strong,.analyticsPage [data-sign=negative]{color:#ffb7af}
+.cards>div[data-kind=deficit]{border-top-color:#8b6967}
+.chartGrid{gap:20px;margin:22px 0 30px}
+.analyticsPage section[aria-label]:not(.executive):not(.performance):not(.cards){min-width:0}
+.analyticsPage .chartGrid>section,.analyticsPage .section>section,.analyticsPage section[aria-label="Energy & dispatch analytics"]{background:linear-gradient(145deg,#122538,#0e1c2c);border-color:#2a4358;border-radius:10px;overflow:hidden}
+.analyticsPage [class*=panelHeading]{padding:23px 24px 12px}
+.analyticsPage [class*=panelHeading] h2{font-size:15px;font-weight:550;color:#e0effa}
+.analyticsPage [class*=panelHeading] p{font-size:10px;color:#97afc2;line-height:1.8}
+.help{font-size:10px;color:#a3b9ca;line-height:1.9}
+.trendSvg{display:block;width:100%;min-width:580px}
+.emptyTrend{min-height:190px;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:10px;padding:20px 35px;text-align:center}
+.emptyTrend span{font-size:40px;color:#5e8ca9}.emptyTrend p{font-size:11px;line-height:1.8;color:#9fb6cb;max-width:300px}
+.trendReadout{display:flex;gap:20px;justify-content:space-between;align-items:center;padding:15px 23px 19px;border-top:1px solid #233b50;background:#0b1b2a70}
+.trendReadout label{font-size:9px;min-width:0;flex:1}.trendReadout dl{display:flex;gap:20px;flex-wrap:wrap;flex:1}.trendReadout dd{font-size:12px;font-variant-numeric:tabular-nums}
+.breakdown{padding:10px 25px}.breakdown>div{font-size:11px;padding:0 0 12px;margin:15px 0}
+.breakdown i{height:4px;background:#648fc4}.breakdown [data-kind=cost] i{background:#b79c69}.breakdown [data-kind=deficit] i{background:#a77d7a}.breakdown [data-sign=negative] i{background:#c48b86}
+.energyGrid{padding:14px 24px 20px;gap:10px}.energyGrid>div{background:#0d1e2f;border-color:#294257;padding:16px;border-radius:6px}.energyGrid small{font-size:10px}.energyGrid strong{font-size:21px;color:#d7eafa}
+.fleetCards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:12px 24px 24px}
+.fleetCards article{border:1px solid #304c61;background:radial-gradient(ellipse at 100% 0,#1b465940,transparent 60%),#0d2031;border-radius:8px;padding:18px;min-width:0}
+.fleetTop{display:flex;align-items:center;gap:5px;min-height:130px}.fleetTop>div:first-child{flex:1;min-width:0}.fleetTop .overline{font-size:8px;letter-spacing:1.5px}.fleetTop h3{font-size:15px;margin:10px 0 12px;font-weight:550;line-height:1.4}.fleetTop strong{font-size:26px;font-weight:500;font-variant-numeric:tabular-nums}.fleetTop strong small{font-size:10px;color:#a3bacb}
+.equipment{width:44%;flex-shrink:0;filter:drop-shadow(0 8px 8px #030d16a0)}.equipment svg{width:100%;height:auto;display:block}
+.fleetCount{height:4px;background:#233f53;border-radius:3px;overflow:hidden;margin-top:10px}.fleetCount i{display:block;height:100%;background:#70adc9}
+.micro{color:#8ea9bc;font-size:9px;margin-top:9px;line-height:1.7}
+.throughput{margin-top:17px;display:grid;gap:12px}.throughput>div{position:relative;font-size:10px;display:flex;gap:10px;justify-content:space-between;padding-bottom:10px}
+.throughput span{color:#a7c1d1}.throughput strong{font-weight:500;font-variant-numeric:tabular-nums}.throughput i{position:absolute;bottom:0;left:0;height:3px;border-radius:3px}
+.fleetCards footer{border-top:1px solid #2c4459;margin-top:16px;padding-top:13px;display:flex;justify-content:space-between;gap:10px;font-size:11px}.fleetCards footer span{color:#a3b9c9}.fleetCards footer strong{font-weight:500;font-variant-numeric:tabular-nums}
+.tableViewport{scrollbar-color:#42617b #0d1b29;max-width:100%;border-top:1px solid #294157}
+.tableViewport table{font-variant-numeric:tabular-nums}.tableViewport :is(td,th){padding:14px 17px;border-bottom-color:#21384e;font-size:11px}
+.tableViewport thead th{background:#142d40;font-size:9px;letter-spacing:.5px;color:#a9c1d5;border-bottom:1px solid #36546b}
+.tableViewport tbody th{color:#c5dfed;background:#102335;font-weight:500;position:sticky;left:0;z-index:1}
+.tableViewport thead th:first-child{position:sticky;left:0;z-index:3}
+.tableViewport td{color:#b8ccdc}.tableViewport tbody tr:hover td{background:#17304955}
+.analyticsPage section[aria-label="Asset performance"]>div[class*=filters]{padding:14px 24px 0}
+.section{margin:24px 0}
+@media(min-width:1800px){.executive strong{font-size:31px}.performanceSvg{max-height:470px}}
+@media(max-width:1350px){.executive{grid-template-columns:repeat(3,minmax(0,1fr))}.executive h2{min-height:0;margin-top:12px}.executive strong{font-size:27px}.fleetTop{min-height:115px}.fleetTop h3{font-size:13px}.fleetCards{gap:10px;padding:12px 18px 20px}.fleetCards article{padding:14px}.inspection dl{gap:17px}.inspection{flex-wrap:wrap}.inspection dl{justify-content:flex-start;flex-basis:100%;padding-top:8px}.performanceSvg{max-height:400px}}
+@media(max-width:1000px){.hero{align-items:flex-start;flex-direction:column;gap:20px}.heroContext{border-left:0;padding-left:0;border-top:1px solid #2b485c;padding-top:16px;max-width:none;width:100%}.heroContext time{font-size:15px}.fleetCards{grid-template-columns:1fr}.fleetTop{min-height:0}.equipment{max-width:130px}.fleetTop h3{font-size:16px}.fleetCards article{padding:20px}.hero h1{font-size:34px}.sectionHeader h2{font-size:22px}.chartGrid{grid-template-columns:1fr}}
+@media(max-width:650px){.executive{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.executive article{padding:14px}.executive h2{min-height:36px;font-size:10px}.executive strong{font-size:23px}.executive p{font-size:9px}.hero{padding-top:14px}.hero h1{font-size:31px;letter-spacing:-1px}.hero>div>p:last-child{font-size:11px}.heroContext span{font-size:8px}.toolbar>form{padding:15px;gap:12px}.filterSummary{font-size:10px;line-height:1.9}.sectionHeader{padding:23px 18px 17px;flex-wrap:wrap;gap:15px}.sectionHeader h2{font-size:22px}.recordBadge{padding:6px 10px;min-width:0}.recordBadge strong{font-size:19px}.recordBadge span{max-width:none;font-size:8px}.performance{margin-bottom:29px}.performanceFooter{padding:15px 18px;flex-direction:column;align-items:flex-start}.performanceFooter .legend{font-size:9px;gap:13px}.inspection{padding:17px;gap:10px}.inspection label{flex:1;min-width:170px}.inspection dl{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:19px 12px}.inspection dl>div:last-child{grid-column:1/-1}.inspection dd{font-size:13px}.cards strong{font-size:23px}.cards>div{padding:15px}.cards small{min-height:34px;display:block}.cards>div>span{font-size:7px;letter-spacing:.8px}.chapter{flex-wrap:wrap;gap:12px}.chapter h2{font-size:21px}.chapter p{font-size:10px}.overline{font-size:9px;letter-spacing:1.5px}.trendReadout{padding:15px 18px;flex-wrap:wrap}.trendReadout label{flex-basis:100%}.trendReadout dl{flex-basis:100%;gap:26px}.energyGrid{padding:12px 16px 18px}.energyGrid strong{font-size:18px}.energyGrid small{font-size:9px}.analyticsPage [class*=panelHeading]{padding:20px 18px 10px}.analyticsPage [class*=panelHeading] h2{font-size:14px}.fleetCards{padding:12px 16px 20px}.tableViewport{max-height:360px}.analyticsPage section[aria-label="Asset performance"]>div[class*=filters]{padding:12px 18px 0}}
+@media(prefers-reduced-motion:reduce){.analyticsPage *{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
