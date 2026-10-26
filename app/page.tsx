@@ -2463,6 +2463,13 @@ const handlePartnerSubmit = async (
   }
 }
 
+/* Hero title size adjustment */
+@media (min-width: 769px) {
+  .hero h1 {
+    font-size: clamp(42px, 4.5vw, 55px);
+  }
+}
+
 /* Extra-small phones */
 @media (max-width: 380px) {
   .container {
